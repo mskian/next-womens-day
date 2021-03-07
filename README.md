@@ -1,6 +1,6 @@
 # Happy Women's Day 💛 Wishes (மகளிர் தின வாழ்த்துகள்)
 
-![build-test](https://github.com/mskian/next-name-wish/workflows/build-test/badge.svg)  
+![build-test](https://github.com/mskian/next-womens-day/workflows/build-test/badge.svg)  
 
 Happy Women's Day - மகளிர் தினம் Wishes in Tamil and Name Wish Greetings Build using Next JS  
 
