@@ -59,6 +59,10 @@ a:hover, a:focus, a:active {
   background-color: #6930c3;
   color: rgb(29, 7, 7);
 }
+.notification-more {
+  background-color: #2d42fd;
+  color: rgb(29, 7, 7);
+}
 .read-more {
 	display: flex;
 	flex-grow: 0.3;
@@ -174,7 +178,7 @@ p {
   letter-spacing: .03em;
   word-wrap: break-word;
   font-family: 'Hind Madurai', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #dfe686;
   -moz-osx-font-smoothing: grayscale;
  -webkit-font-smoothing: antialiased !important;

@@ -212,7 +212,9 @@ const Blog = ({ santhosh }) => {
               </h1>
               <br />
               <Bounce>
-                <p className="has-text-centered">💚 {wishername} 💚</p>
+                <p className="is-size-6 has-text-centered">
+                  💚 {wishername} 💚
+                </p>
               </Bounce>
             </Slide>
             <br />
@@ -234,33 +236,74 @@ const Blog = ({ santhosh }) => {
                 <p className="has-text-weight-bold has-text-left">
                   ஆம் ஒரு ஆணின் வெற்றிக்கு 💚
                   <br />
-                  <br />
                   பின்னால் இருப்பாள்
-                  <br />
                   <br />
                   அது அன்னையோ
                   <br />
-                  <br />
                   தோழியோ
-                  <br />
                   <br />
                   மனைவியோ
                   <br />
-                  <br />
                   அந்த அன்பு தரும்
-                  <br />
                   <br />
                   தைரியமும் ஊக்கமும்
                   <br />
-                  <br />
                   பல கஷ்டங்கள் கடந்து சாதனை ஆக்குகிறது
-                  <br />
                   <br />
                   Happy Women's day 💗
                 </p>
               </div>
             </Slide>
             <br />
+            <Slide triggerOnce>
+              <div className="notification-more has-text-weight-bold read-more">
+                <p className="has-text-weight-bold has-text-left">
+                  பெண்கள் அவர்களின்
+                  <br />
+                  வேதனை மற்றும் ஆசைகளை
+                  <br />
+                  வெளிப்படையாக காட்டிக்கொள்ள மாட்டார்கள்
+                  <br />
+                  அவர்களிடம் சிறிது நேரம்
+                  <br />
+                  மனம் விட்டு பேசும் போது
+                  <br />
+                  தான் புரிகிறது அவர்களின்
+                  <br />
+                  ஆசைகள் மற்றும் இலட்சியங்கள்
+                  <br />
+                  அவர்களின் உணர்வுகளை மதிப்போம் துணையாய் நிற்போம்
+                </p>
+              </div>
+            </Slide>
+            <br />
+            <hr />
+            <br />
+            <div className="notification is-warning has-text-weight-bold">
+              <br />
+              <h3 className="has-text-centered">Create your Wish 💐</h3>
+              <br />
+              <div className="control">
+                <input
+                  className="input"
+                  id="username"
+                  name="username"
+                  type="text"
+                  placeholder="Enter Your Name"
+                  value={username}
+                  onChange={e => setInput(e.target.value)}
+                  required
+                />
+              </div>
+              <br />
+              <button
+                onClick={subscribe}
+                className="button is-link read-random sign-button"
+                type="submit"
+              >
+                Create Wishes
+              </button>
+            </div>
             <div className="buttons is-centered">
               <ToastContainer />
               <CopyToClipboard text={pathname}>
@@ -291,34 +334,8 @@ const Blog = ({ santhosh }) => {
                 🤖 Telegram
               </a>
             </div>
-            <hr />
-            <br />
-            <div className="notification is-warning has-text-weight-bold">
-              <br />
-              <h3 className="has-text-centered">Create your Wish 💐</h3>
-              <br />
-              <div className="control">
-                <input
-                  className="input"
-                  id="username"
-                  name="username"
-                  type="text"
-                  placeholder="Enter Your Name"
-                  value={username}
-                  onChange={e => setInput(e.target.value)}
-                  required
-                />
-              </div>
-              <br />
-              <button
-                onClick={subscribe}
-                className="button is-link read-random sign-button"
-                type="submit"
-              >
-                Create Wishes
-              </button>
-            </div>
             <ToastContainer />
+            <hr />
             <br />
           </div>
         </div>

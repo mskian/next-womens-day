@@ -200,23 +200,18 @@ class RetrieveList extends Component {
               <br />
               <Slide triggerOnce>
                 <div className="notification has-text-weight-bold read-more">
-                  <p className="has-text-weight-bold has-text-left">
+                  <p className="is-size-6 has-text-weight-bold has-text-left">
                     Hi Thanks for using our Web App 💚
                     <br />
+                    Send Happy Women's Day 💛
                     <br />
-                    Send Happy Women's Day 💛 Wishes to your Friends
-                    <br />
+                    Wishes to your Friends
                     <br />
                     Free Text Wish Greetings
                     <br />
-                    <br />
                     ZERO ADS - No Tricks and Ad Clicks
                     <br />
-                    <br />
                     Just Enter the Name and Create a Wish
-                    <br />
-                    <br />
-                    Happy Women's Day 💛
                   </p>
                 </div>
               </Slide>
