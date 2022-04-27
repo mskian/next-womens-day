@@ -19,7 +19,7 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "dependencies": {
-    "axios": "^0.27.1",
+    "axios": "^0.27.2",
     "bulma": "^0.9.3",
     "next": "12.1.5",
     "react": "18.1.0",
