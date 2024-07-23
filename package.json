@@ -23,7 +23,7 @@
     "bulma": "^0.9.4",
     "next": "14.2.5",
     "react": "18.3.1",
-    "react-awesome-reveal": "^3.8.1",
+    "react-awesome-reveal": "^4.2.13",
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "18.3.1",
     "react-toastify": "^10.0.5",
